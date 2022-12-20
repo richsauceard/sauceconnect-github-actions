@@ -29,7 +29,7 @@ jobs:
           username: ${{ secrets.SAUCE_USERNAME }}
           accessKey: ${{ secrets.SAUCE_ACCESS_KEY }}
           tunnelIdentifier: ${{ secrets.SAUCE_TUNNEL_NAME }}
-          scVersion: 4.8.2
+          scVersion: 4.6.4
 
       #- name: Build Your App
           # Add code here to build your app
